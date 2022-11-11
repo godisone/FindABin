@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Find A Bin</title>
+	  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet-src.js"></script>
+	  <script src="lib/leaflet/leaflet-bing-layer.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
+<style>
+  p{
+    color: white;
+    background-color: black;
+    padding-left:10px;
+  }
+  b {
+      color: black;
+      background-color: white;
+    text-shadow: 2px 2px white;
+  }
+  body {
+      font-family: 'Alegreya Sans SC';font-size: 22px;
+  }
+  .overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7);
+    z-index: 9999;
+  }
+
+  .wlcm {
+    position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      color: #fff;
+
+  }
+  #btn {
+    position: absolute;
+    left: 0;
+    bottom: 40%;
+    margin-left: 45%;
+    background: #fff;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 0;
+    padding: 20px;
+    border: 3px solid #ddd;
+
+  }
+
+
+</style>
+
+  </head>
+  <body>
+  <div class="overlay">
+    <button  id="btn">Get started</button>
+    <h2 class="wlcm">Welcome to - Find A Bin<br>Waste Management Tool Based On IOT</h2>
+  </div>
+     <div style="padding:0px 500px 0 450px;"><p><b>Find A Bin </b>: Waste Management Tool Based On IOT</p></div>
+     <div style="width:100%; height:580px; box-shadow : 0px 0px 20px black;" id="map">
+     <script>
+       $( "#btn" ).click(function() {
+  $( ".overlay" ).fadeOut( "slow", function() {
+    // Animation complete.
+  });
+});
+     </script>
+     <script type='text/javascript'>
+
+	 var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {id: 'map'
+    });
+
+	var bingkey = 'Am9il8QQX4kwLMtnq7rJt8CeauxqVt-PWudt7R92PW95RYhsCbmQn4FGjNID1dxO';
+      var bing = L.tileLayer.bing(bingkey,{id: 'map'});
+
+     var map = L.map('map',{
+	 center: [22.959553 , 88.448060],
+	 zoom: 17,
+	 layers: [osm, bing]
+	 });
+
+	 var baseMaps = {
+    "SATELLITE": bing,
+	"ROADMAP": osm
+    };
+
+     L.control.layers(baseMaps).addTo(map);
+
+	 var baseMaps = {
+    "<span style='color: gray'>SATELLITE</span>": bing,
+    "ROADMAP": osm
+};
+
+// var jisIcon = new L.icon({
+//     iconUrl: 'data/JIS_logo_1.png',
+
+//     iconSize:     [48, 50], // size of the icon
+//     shadowSize:   [50, 64], // size of the shadow
+//     iconAnchor:   [10, 20], // point of the icon which will correspond to marker's location
+//     shadowAnchor: [4, 62],  // the same for the shadow
+//     popupAnchor:  [0, -20] // point from which the popup should open relative to the iconAnchor
+// });
+// L.marker([22.959527, 88.447816], {icon: jisIcon}).addTo(map).bindPopup("JIS COLLEGE OF ENGINEERING<br><a href='http://www.jiscollege.ac.in' target='_blank'>CLICK HERE</a> for more details");
+
+
+	$.getJSON("data/convertcsv.geojson",function(data){
+	  L.geoJSON(data,{
+	  onEachFeature:function(feature,layer){
+	  layer.bindPopup("<br>Dustbin ID : " + feature.properties.IdNo +"<br>Dustbin Type : " +feature.properties.DustbinType +"<br>Dustbin Capacity : " +feature.properties.CapacityofDustbi+"<br>Waste Type : " +feature.properties.WasteType+"<br>Waste Produced Per Day in Kg : " +feature.properties.WasteProducedPerDayinKg+"<br>Avg Waste Produced In Month In Kg : " +feature.properties.AvgWasteProducedInMonthInKg)
+	  }
+	  }).addTo(map);
+	  });
+
+	   // add a scale at at your map.
+var scale = L.control.scale().addTo(map);
+
+// Get the label.
+var metres = scale._getRoundNum(map.containerPointToLatLng([0, map.getSize().y / 2 ]).distanceTo( map.containerPointToLatLng([scale.options.maxWidth,map.getSize().y / 2 ])))
+  label = metres < 1000 ? metres + ' m' : (metres / 1000) + ' km';
+     console.log(label);
+
+     L.control.navbar().addTo(map);
+
+
+	  </script>
+
+  </body>
+</html>
