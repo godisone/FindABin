@@ -11,6 +11,7 @@
      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="  crossorigin="anonymous"></script>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" />
      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet-src.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
      <script src="lib/leaflet/leaflet-bing-layer.min.js"></script>
      <link href='https://fonts.googleapis.com/css?family=Alegreya Sans SC' rel='stylesheet'>
  <style>
@@ -96,7 +97,7 @@
     <nav>
       <div class="sidebar-button">
         <i class='bx bx-menu sidebarBtn'></i>
-        <span class="dashboard">FindABin</span>
+        <span class="dashboard">Welcome to - Find A Bin - A Waste Management Tool</span>
       </div>
       <div class="search-box">
         <input type="text" placeholder="Search...">
@@ -112,13 +113,13 @@
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Total Number Of Dustbin</div>
-            <div class="number">40,876</div>
+            <div class="number">31</div>
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
               <span class="text">Up from yesterday</span>
             </div>
           </div>
-          <i class='bx bx-cart-alt cart'></i>
+          <i class="fa fa-trash" aria-hidden="true" style="font-size:48px;color:red" ></i>
         </div>
         <div class="box">
           <div class="right-side">
@@ -129,18 +130,18 @@
               <span class="text">Up from yesterday</span>
             </div>
           </div>
-          <i class='bx bxs-cart-add cart two' ></i>
+          <i class="fa fa-trash" aria-hidden="true" style="font-size:48px;color:black" ></i>
         </div>
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Total Waste Produced</div>
-            <div class="number">$12,876</div>
+            <div class="number">12,876</div>
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
               <span class="text">Up from yesterday</span>
             </div>
           </div>
-          <i class='bx bx-cart cart three' ></i>
+          <i class="fa fa-trash" aria-hidden="true" style="font-size:48px;color:green" ></i>
         </div>
         <div class="box">
           <div class="right-side">
@@ -151,7 +152,7 @@
               <span class="text">Down From Today</span>
             </div>
           </div>
-          <i class='bx bxs-cart-download cart four' ></i>
+          <i class="fa fa-trash" aria-hidden="true" style="font-size:48px;color:blue" ></i>
         </div>
       </div>
 
@@ -210,7 +211,7 @@
 // L.marker([22.959527, 88.447816], {icon: jisIcon}).addTo(map).bindPopup("JIS COLLEGE OF ENGINEERING<br><a href='http://www.jiscollege.ac.in' target='_blank'>CLICK HERE</a> for more details");
 
 
-  $.getJSON("data/convertcsv.geojson",function(data){
+  $.getJSON("data/data1.geojson",function(data){
     L.geoJSON(data,{
     onEachFeature:function(feature,layer){
     layer.bindPopup("<br>Dustbin ID : " + feature.properties.IdNo +"<br>Dustbin Type : " +feature.properties.DustbinType +"<br>Dustbin Capacity : " +feature.properties.CapacityofDustbi+"<br>Waste Type : " +feature.properties.WasteType+"<br>Waste Produced Per Day in Kg : " +feature.properties.WasteProducedPerDayinKg+"<br>Avg Waste Produced In Month In Kg : " +feature.properties.AvgWasteProducedInMonthInKg)

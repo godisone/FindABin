@@ -1,0 +1,878 @@
+{
+  "type": "FeatureCollection",
+  "name": "data1",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "70257a0d-fe26-068b-087f-f23409556120",
+        "created_at": "2017-08-15T04:21:19.727Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 1,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.966087,
+        "UTM_Easting_4_Dustbin_Location": 88.455459,
+        "UTM_Zone_4_Dustbin_Location": 1842,
+        "comments": "You can live with open environment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.455459,
+          22.966087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "ea1a5f62-a121-26f0-5637-668472482b95",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 2,
+        "CapacityofDustbi": 200,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Liquid",
+        "WasteProducedPerDayinKg": 20,
+        "AvgWasteProducedInMonthInKg": 150,
+        "accuracy_4_Dustbin_Location": 22,
+        "UTM_Northing_4_Dustbin_Location": 22.965153,
+        "UTM_Easting_4_Dustbin_Location": 88.460605,
+        "UTM_Zone_4_Dustbin_Location": 1842,
+        "comments": "Good with all facilities"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.460605,
+          22.965153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "bc05bf7a-3b20-286c-a98d-e0fa10351a22",
+        "created_at": "2017-08-15T04:02:29.359Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 3,
+        "CapacityofDustbi": 400,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 30,
+        "AvgWasteProducedInMonthInKg": 280,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.966553,
+        "UTM_Easting_4_Dustbin_Location": 88.452885,
+        "UTM_Zone_4_Dustbin_Location": 2010,
+        "comments": "This is best for group living."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.452885,
+          22.966553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "8550330d-b30a-2b85-585a-0de65d063799",
+        "created_at": "2017-08-15T03:53:04.653Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 4,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.965153,
+        "UTM_Easting_4_Dustbin_Location": 88.460605,
+        "UTM_Zone_4_Dustbin_Location": 1842,
+        "comments": "Good for group living"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.460605,
+          22.965153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "5414d113-9782-f969-68d3-62722b8b2d78",
+        "created_at": "2017-08-15T03:45:05.266Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 5,
+        "CapacityofDustbi": 123,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Liquid",
+        "WasteProducedPerDayinKg": 15,
+        "AvgWasteProducedInMonthInKg": 210,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.966553,
+        "UTM_Easting_4_Dustbin_Location": 88.452885,
+        "UTM_Zone_4_Dustbin_Location": 2010,
+        "comments": "This is best for Girls with all facilities"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.452885,
+          22.966553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "1f5cb150-1e29-1519-15eb-b979b5a2d6dd",
+        "created_at": "2017-08-15T03:36:44.131Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 6,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Liquid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.966553,
+        "UTM_Easting_4_Dustbin_Location": 88.452885,
+        "UTM_Zone_4_Dustbin_Location": 2010,
+        "comments": "Good with all facilities"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.452885,
+          22.966553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "26633b30-b215-6c64-92aa-64423f9e62c4",
+        "created_at": "2017-08-15T03:32:25.171Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 7,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.965026,
+        "UTM_Easting_4_Dustbin_Location": 88.453254,
+        "UTM_Zone_4_Dustbin_Location": 1792,
+        "comments": "This is a flat ,you can live freely with your team"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.453254,
+          22.965026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "803a1935-cce6-ac89-983b-964c057c93a1",
+        "created_at": "2017-08-15T03:22:33.319Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 8,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.964856,
+        "UTM_Easting_4_Dustbin_Location": 88.454772,
+        "UTM_Zone_4_Dustbin_Location": 400,
+        "comments": "This is also avilable for only lodging with good environment."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.454772,
+          22.964856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "00bafd00-810a-11e7-877b-af7aeb7d3cd1",
+        "created_at": "2017-08-14T16:02:42.000Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 9,
+        "CapacityofDustbi": 100,
+        "WasteType": "NBio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.977828,
+        "UTM_Easting_4_Dustbin_Location": 88.436729,
+        "UTM_Zone_4_Dustbin_Location": 4,
+        "comments": "nice stay under budget for bachelors..average rooms & service..though location is very convenient."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.436729,
+          22.977828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "e8cf2320-8108-11e7-877b-af7aeb7d3cd1",
+        "created_at": "2017-08-14T15:54:52.370Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 10,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Liquid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.97974,
+        "UTM_Easting_4_Dustbin_Location": 88.434341,
+        "UTM_Zone_4_Dustbin_Location": 4,
+        "comments": "It is a nice restaurant. Nice ambience You'll just love it!!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.434341,
+          22.97974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "7d86f440-8107-11e7-877b-af7aeb7d3cd1",
+        "created_at": "2017-08-14T15:44:42.884Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 11,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.963017,
+        "UTM_Easting_4_Dustbin_Location": 88.427345,
+        "UTM_Zone_4_Dustbin_Location": 4,
+        "comments": "The restaurant cum bar has an elegant and warm ambience and the lighting is near perfect. The food is really good and the drinks are fairly priced. Staffs are extremely professional and well behaved.\n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.427345,
+          22.963017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "ac692140-8105-11e7-877b-af7aeb7d3cd1",
+        "created_at": "2017-08-14T15:31:42.549Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 12,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.956377,
+        "UTM_Easting_4_Dustbin_Location": 88.452279,
+        "UTM_Zone_4_Dustbin_Location": 4,
+        "comments": "Best hotel in kalyani. Staffs are so co operative. Cleanliness is very good. Food is also delicious."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.452279,
+          22.956377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "43b058e1-ed18-90ab-7a2b-8214b01b2129",
+        "created_at": "2017-08-14T15:21:07.719Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 13,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.957365,
+        "UTM_Easting_4_Dustbin_Location": 88.450457,
+        "UTM_Zone_4_Dustbin_Location": 9,
+        "comments": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.450457,
+          22.957365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "9354d7f6-7cbe-972a-558f-9855a48ed989",
+        "created_at": "2017-08-14T15:11:20.490Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 14,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.957865,
+        "UTM_Easting_4_Dustbin_Location": 88.448942,
+        "UTM_Zone_4_Dustbin_Location": 10,
+        "comments": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.448942,
+          22.957865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "d745d7b8-fd98-4bbe-1497-d9967a2c6291",
+        "created_at": "2017-08-14T15:06:29.721Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 15,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.957706,
+        "UTM_Easting_4_Dustbin_Location": 88.448779,
+        "UTM_Zone_4_Dustbin_Location": 3,
+        "comments": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.448779,
+          22.957706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "58182de5-4f37-cd41-7053-3cc8951b8c03",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 16,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.957914,
+        "UTM_Easting_4_Dustbin_Location": 88.448603,
+        "UTM_Zone_4_Dustbin_Location": 4,
+        "comments": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.448603,
+          22.957914
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "d79e78db-4692-ab13-d072-338a96f9da84",
+        "created_at": "2017-08-14T15:01:02.122Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 17,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Liquid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.958289,
+        "UTM_Easting_4_Dustbin_Location": 88.448613,
+        "UTM_Zone_4_Dustbin_Location": 3,
+        "comments": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.448613,
+          22.958289
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "c884f8d7-275f-cb6a-18eb-ae33ad951400",
+        "created_at": "2017-08-14T14:56:16.011Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 18,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.959707,
+        "UTM_Easting_4_Dustbin_Location": 88.448529,
+        "UTM_Zone_4_Dustbin_Location": 3,
+        "comments": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.448529,
+          22.959707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "e721e498-8da9-7758-c7ec-1295459f80f2",
+        "created_at": "2017-08-14T14:40:48.228Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 19,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.95935,
+        "UTM_Easting_4_Dustbin_Location": 88.449012,
+        "UTM_Zone_4_Dustbin_Location": 3,
+        "comments": "It's near to college"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.449012,
+          22.95935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "1e75ea0c-645b-3cf2-b636-078c8557383d",
+        "created_at": "2017-08-13T13:11:52.485Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 20,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.95847,
+        "UTM_Easting_4_Dustbin_Location": 88.448551,
+        "UTM_Zone_4_Dustbin_Location": 10,
+        "comments": "It's a good paying guest for student"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.448551,
+          22.95847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "0a1b317b-2f6e-e791-85f8-70f727dbfb6d",
+        "created_at": "2017-08-13T07:25:24.283Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 21,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.962735,
+        "UTM_Easting_4_Dustbin_Location": 88.446713,
+        "UTM_Zone_4_Dustbin_Location": 2157,
+        "comments": "You can live with best facilities."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.446713,
+          22.962735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "7c30e8ab-0aac-73df-b476-1dc1db36c30d",
+        "created_at": "2017-08-13T06:57:51.292Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 22,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.958869,
+        "UTM_Easting_4_Dustbin_Location": 88.449016,
+        "UTM_Zone_4_Dustbin_Location": 5,
+        "comments": "This is very good with all facilities."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.449016,
+          22.958869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "e361c975-9465-f4d1-d6d4-dd15ca661fa1",
+        "created_at": "2017-08-13T06:45:39.995Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 23,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.959011,
+        "UTM_Easting_4_Dustbin_Location": 88.449057,
+        "UTM_Zone_4_Dustbin_Location": 5,
+        "comments": "All facilities are best of this mess,environment is also good.proper care is taken. high speed Wi-Fi for better technical education... you can select this mess for better life."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.449057,
+          22.959011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "3bc6e947-5931-0cf9-8cf6-26a859f80edb",
+        "created_at": "2017-08-13T06:27:11.773Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 24,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.95882,
+        "UTM_Easting_4_Dustbin_Location": 88.448794,
+        "UTM_Zone_4_Dustbin_Location": 5,
+        "comments": "This mess provides  better environment for bachelor's."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.448794,
+          22.95882
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "48129f8e-1d7e-7ce0-febc-ba3b30f622fc",
+        "created_at": "2017-08-12T03:42:18.327Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 25,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.965163,
+        "UTM_Easting_4_Dustbin_Location": 88.449589,
+        "UTM_Zone_4_Dustbin_Location": 16,
+        "comments": "This place is very much comfortable."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.449589,
+          22.965163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "5c3eb71e-fe6c-fed0-6284-7a49867d8ad1",
+        "created_at": "2017-08-09T04:18:10.525Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 26,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.965038,
+        "UTM_Easting_4_Dustbin_Location": 88.449786,
+        "UTM_Zone_4_Dustbin_Location": 10,
+        "comments": "It's a good for girls"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.449786,
+          22.965038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "0fe3eb88-634c-5073-d987-a6889d4e53d2",
+        "created_at": "2017-07-30T07:08:01.851Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 27,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.963907,
+        "UTM_Easting_4_Dustbin_Location": 88.454878,
+        "UTM_Zone_4_Dustbin_Location": 4,
+        "comments": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.454878,
+          22.963907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "6930771f-ac9b-7778-57ea-93fa8c916df3",
+        "created_at": "2017-07-30T06:41:18.633Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 28,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.962983,
+        "UTM_Easting_4_Dustbin_Location": 88.456303,
+        "UTM_Zone_4_Dustbin_Location": 3,
+        "comments": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.456303,
+          22.962983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "59fad12c-7559-f018-7102-e687397c0afa",
+        "created_at": "2017-07-30T06:03:34.329Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 29,
+        "CapacityofDustbi": 100,
+        "WasteType": "Bio-degradable",
+        "DustbinType": "Liquid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.961545,
+        "UTM_Easting_4_Dustbin_Location": 88.458014,
+        "UTM_Zone_4_Dustbin_Location": 10,
+        "comments": "It's a kind of flat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.458014,
+          22.961545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "73f9808c-e385-0482-32e5-5fec2355d6c9",
+        "created_at": "2017-07-29T03:39:17.653Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 30,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.96137,
+        "UTM_Easting_4_Dustbin_Location": 88.444938,
+        "UTM_Zone_4_Dustbin_Location": 4,
+        "comments": "This is a flat where anybody can live,it is very nice place."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.444938,
+          22.96137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ec5_uuid": "97b216aa-9cc7-fe33-9d83-0dccd0e2e575",
+        "created_at": "2017-07-28T16:06:36.659Z",
+        "uploaded_at": "2019-11-18T09:01:40.000Z",
+        "created_by": "anikman98@gmail.com",
+        "title": "f101f568-5ed5-43c1-935b-0528d32a4883",
+        "IdNo": 31,
+        "CapacityofDustbi": 100,
+        "WasteType": "Non-bio-degradable",
+        "DustbinType": "Solid",
+        "WasteProducedPerDayinKg": 10,
+        "AvgWasteProducedInMonthInKg": 250,
+        "accuracy_4_Dustbin_Location": 21,
+        "UTM_Northing_4_Dustbin_Location": 22.95993,
+        "UTM_Easting_4_Dustbin_Location": 88.449784,
+        "UTM_Zone_4_Dustbin_Location": 23,
+        "comments": "It's good for student ."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.449784,
+          22.95993
+        ]
+      }
+    }
+  ]
+}
